@@ -9,18 +9,26 @@ _corpus = lmloCorpus()
 
 # populate chant data frame
 
+_dict = dict()
+_dict['Feast'] = 'LMLO Feast'
+_dict['Saint'] = 'LMLO Saint'
+_dict['Humbert'] = 'Humb Misc'
+_dict['Humbert Sanct.'] = 'Humb Sanctorale'
+_dict['Humbert Temp.'] = 'Humb Temporale'
+
 _d = defaultdict(list)
 for _c in _corpus.chants:
     _d['corpus'].append('lmlo')
-    _subcorpus = _c.office.split()[0][1:-1]
-    if _subcorpus == 'Saint':
-        _subcorpus = 'Sanctorale'
-    if _subcorpus == 'Humber':
-        _subcorpus = 'Humbert'
-    if _subcorpus == 'Feast':
-        _subcorpus = 'Feast'
-    _d['subcorpus'].append(_subcorpus)
+    _subcorpus = _c.office.split(']')[0][1:]
+    # if _subcorpus == 'Saint':
+    #     _subcorpus = 'Sanctorale'
+    # if _subcorpus == 'Humber':
+    #     _subcorpus = 'Humbert'
+    # if _subcorpus == 'Feast':
+    #     _subcorpus = 'Feast'
+    _d['subcorpus'].append(_dict[_subcorpus])
     _d['modus'].append(_c.mode)
+    _d['Modus'].append(_c.mode.lower())
     _d['office'].append(' '.join(_c.office.split()[1:]))
     _d['service'].append(fullService[_c.service])
     _d['Service'].append(fullService[_c.Service])
