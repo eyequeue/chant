@@ -4,76 +4,90 @@ from collections import defaultdict
 from IPython.core.display import display, HTML
 
 
+decodeSubcorpus = {
+    'LF': 'LMLO Feast',
+    'LS': 'LMLO Saint',
+    'H': 'Humbert Misc',
+    'HS': 'Humbert Sanctorale',
+    'HT': 'Humber Temporale',
+}
 
-_corpus = lmloCorpus()
+decodeService = fullService
+decodeGenre = fullGenre
+    # '': '',
 
-# populate chant data frame
 
-_dict = dict()
-_dict['Feast'] = 'LMLO Feast'
-_dict['Saint'] = 'LMLO Saint'
-_dict['Humbert'] = 'Humb Misc'
-_dict['Humbert Sanct.'] = 'Humb Sanctorale'
-_dict['Humbert Temp.'] = 'Humb Temporale'
+def recalculate():
 
-_d = defaultdict(list)
-for _c in _corpus.chants:
-    _d['corpus'].append('lmlo')
-    _subcorpus = _c.office.split(']')[0][1:]
-    # if _subcorpus == 'Saint':
-    #     _subcorpus = 'Sanctorale'
-    # if _subcorpus == 'Humber':
-    #     _subcorpus = 'Humbert'
-    # if _subcorpus == 'Feast':
-    #     _subcorpus = 'Feast'
-    _d['subcorpus'].append(_dict[_subcorpus])
-    _d['modus'].append(_c.mode)
-    _d['Modus'].append(_c.mode.lower())
-    _d['office'].append(' '.join(_c.office.split()[1:]))
-    _d['service'].append(fullService[_c.service])
-    _d['Service'].append(fullService[_c.Service])
-    _d['ordinal'].append(_c.index)
-    _d['genre'].append(fullGenre[_c.genre])
-    _d['Genre'].append(fullGenre[_c.Genre])
-    _d['text'].append(_c.fulltext)
-    _d['lmloHeader'].append(_c.header)
-    _d['lmloEncoding'].append(_c.lmloEncoding)
-    _d['volpiano'].append(_c.volpiano)
+    corpus = lmloCorpus()
 
-chantData = pd.DataFrame(_d)
+    # populate chant data frame
 
-# populate note data frame
+    translate_subcorpus = dict()
+    translate_subcorpus['Feast'] = 'F'
+    translate_subcorpus['Saint'] = 'S'
+    translate_subcorpus['Humbert'] = 'H'
+    translate_subcorpus['Humbert Sanct.'] = 'HS'
+    translate_subcorpus['Humbert Temp.'] = 'HT'
 
-_d = defaultdict(list)
-for _i_c, _c in enumerate(_corpus.chants):
-    for _i_w, _w in enumerate(_c.words):
-        for _i_s, _s in enumerate(_w.syllables):
-            for _i_n, _n in enumerate(_s.notes):
+    _data = defaultdict(list)
+    for c in corpus.chants:
+        _data['corpus'].append('L')
+        _subcorpus = c.office.split(']')[0][1:]
+        # if _subcorpus == 'Saint':
+        #     _subcorpus = 'Sanctorale'
+        # if _subcorpus == 'Humber':
+        #     _subcorpus = 'Humbert'
+        # if _subcorpus == 'Feast':
+        #     _subcorpus = 'Feast'
+        _data['subcorpus'].append(translate_subcorpus[_subcorpus])
+        _data['modus'].append(c.mode)
+        _data['Modus'].append(c.mode.lower())
+        _data['office'].append(' '.join(c.office.split()[1:]))
+        _data['service'].append(c.service)
+        _data['Service'].append(fullService[c.Service])
+        _data['ordinal'].append(c.index)
+        _data['genre'].append(fullGenre[c.genre])
+        _data['Genre'].append(fullGenre[c.Genre])
+        _data['text'].append(c.fulltext)
+        _data['lmloHeader'].append(c.header)
+        _data['lmloEncoding'].append(c.lmloEncoding)
+        _data['volpiano'].append(c.volpiano)
 
-                _init = 0
-                if _i_n == 0:
-                    _init += 1
-                if _i_s == 0:
-                    _init *= 2
-                _final = 0
-                if _i_n == len(_s.notes) - 1:
-                    _final += 1
-                if _i_s == len(_w.syllables) - 1:
-                    _final *= 2
-                
-                _d['chantID'].append(_i_c)
-                _d['word'].append(_i_w)
-                _d['syll'].append(_i_s)
-                _d['note'].append(_i_n)
-                _d['text'].append(_w.text)
-                _d['boundary_before'].append(_init)
-                _d['boundary_after'].append(_final)
-                _d['register_abs'].append(int(_n.letter[0]))
-                _d['letter'].append(_n.letter[1])
-                _d['register_rel'].append(int(_n.sd[0]))
-                _d['sd'].append(int(_n.sd[1]))
+    pd.DataFrame(_data).to_pickle('chantData.zip')
 
-noteData = pd.DataFrame(_d)
+    # populate note data frame
+
+    _data = defaultdict(list)
+    for i_c, c in enumerate(corpus.chants):
+        for i_w, w in enumerate(c.words):
+            for i_s, s in enumerate(w.syllables):
+                for i_n, n in enumerate(s.notes):
+
+                    initial = 0
+                    if i_n == 0:
+                        initial += 1
+                    if i_s == 0:
+                        initial *= 2
+                    final = 0
+                    if i_n == len(s.notes) - 1:
+                        final += 1
+                    if i_s == len(w.syllables) - 1:
+                        final *= 2
+                    
+                    _data['chantID'].append(i_c)
+                    _data['word'].append(i_w)
+                    _data['syll'].append(i_s)
+                    _data['note'].append(i_n)
+                    # _data['text'].append(w.text)
+                    _data['boundary_before'].append(initial)
+                    _data['boundary_after'].append(final)
+                    _data['reg_abs'].append(int(n.letter[0]))
+                    _data['pc_abs'].append(n.letter[1])
+                    _data['reg_rel'].append(int(n.sd[0]))
+                    _data['pc_rel'].append(int(n.sd[1]))
+
+    pd.DataFrame(_data).to_pickle('noteData.zip')
 
 def vdisplay(volpiano, size=24, addClef = False, color='black', tenorClef=True):
     if addClef:
@@ -112,3 +126,9 @@ def displayChant(idx):
 # for _name in dir():
 #     if _name.startswith('_'):
 #         del globals()[_name]
+
+def chantData():
+    return pd.read_pickle('chantData.zip')
+
+def noteData():
+    return pd.read_pickle('noteData.zip')
