@@ -1,5 +1,6 @@
 from lmlo import lmloCorpus, tenorclef, fullService, fullGenre
 import pandas as pd
+import numpy
 from collections import defaultdict
 from IPython.core.display import display, HTML
 
@@ -24,14 +25,15 @@ def recalculate():
     # populate chant data frame
 
     translate_subcorpus = dict()
-    translate_subcorpus['Feast'] = 'F'
-    translate_subcorpus['Saint'] = 'S'
+    translate_subcorpus['Feast'] = 'LF'
+    translate_subcorpus['Saint'] = 'LS'
     translate_subcorpus['Humbert'] = 'H'
     translate_subcorpus['Humbert Sanct.'] = 'HS'
     translate_subcorpus['Humbert Temp.'] = 'HT'
 
     _data = defaultdict(list)
-    for c in corpus.chants:
+    for i, c in enumerate(corpus.chants):
+        _data['chantID'].append(i)
         _data['corpus'].append('L')
         _subcorpus = c.office.split(']')[0][1:]
         # if _subcorpus == 'Saint':
@@ -41,17 +43,21 @@ def recalculate():
         # if _subcorpus == 'Feast':
         #     _subcorpus = 'Feast'
         _data['subcorpus'].append(translate_subcorpus[_subcorpus])
-        _data['modus'].append(c.mode)
-        _data['Modus'].append(c.mode.lower())
+        _data['Modus'].append(c.mode)
+        _data['modus'].append(c.mode.lower())
         _data['office'].append(' '.join(c.office.split()[1:]))
-        _data['service'].append(c.service)
-        _data['Service'].append(fullService[c.Service])
+
+        # switching the names Service/service and Genre/genre from lmlo module
+        # for consistency with Modus/modus: capital is the more granular grouping
+
+        _data['Service'].append(c.service)
+        _data['service'].append(c.Service)
         _data['ordinal'].append(c.index)
-        _data['genre'].append(fullGenre[c.genre])
-        _data['Genre'].append(fullGenre[c.Genre])
+        _data['Genre'].append(c.genre)
+        _data['genre'].append(c.Genre)
         _data['text'].append(c.fulltext)
-        _data['lmloHeader'].append(c.header)
-        _data['lmloEncoding'].append(c.lmloEncoding)
+        # _data['lmloHeader'].append(c.header)
+        # _data['lmloEncoding'].append(c.lmloEncoding)
         _data['volpiano'].append(c.volpiano)
 
     pd.DataFrame(_data).to_pickle('chantData.zip')
@@ -60,9 +66,20 @@ def recalculate():
 
     _data = defaultdict(list)
     for i_c, c in enumerate(corpus.chants):
+        i = 1
         for i_w, w in enumerate(c.words):
             for i_s, s in enumerate(w.syllables):
                 for i_n, n in enumerate(s.notes):
+
+                    # identify note's location in the corpus
+
+                    _data['chantID'].append(i_c)
+                    _data['word'].append(i_w)
+                    _data['syll'].append(i_s)
+                    _data['note'].append(i_n)
+
+
+                    # identify initial and final syllable (1) and word (2) boundaries
 
                     initial = 0
                     if i_n == 0:
@@ -74,18 +91,38 @@ def recalculate():
                         final += 1
                     if i_s == len(w.syllables) - 1:
                         final *= 2
-                    
-                    _data['chantID'].append(i_c)
-                    _data['word'].append(i_w)
-                    _data['syll'].append(i_s)
-                    _data['note'].append(i_n)
-                    # _data['text'].append(w.text)
                     _data['boundary_before'].append(initial)
                     _data['boundary_after'].append(final)
-                    _data['reg_abs'].append(int(n.letter[0]))
+
+                    # extract pitch and register features
+
+                    _data['reg_abs'].append(n.letter[0])
                     _data['pc_abs'].append(n.letter[1])
-                    _data['reg_rel'].append(int(n.sd[0]))
-                    _data['pc_rel'].append(int(n.sd[1]))
+                    _data['reg_rel'].append(n.sd[0])
+                    _data['pc_rel'].append(n.sd[1])
+
+                    # calculate intervallic context
+
+                    def pindex(sd):
+                        return (int(sd[0])*7 + int(sd[1]))
+
+
+
+                    if i == 1:
+                        _data['lint'].append(-99)
+                    else:
+                        _data['lint'].append(int(pindex(c.flatSD[i]) - pindex(c.flatSD[i-1])))
+                    if i == len(c.flatSD)-2:
+                        _data['rint'].append(99)
+                    else:
+                        _data['rint'].append(int(pindex(c.flatSD[i+1]) - pindex(c.flatSD[i])))
+
+
+                    i += 1
+
+    # add interval info
+
+
 
     pd.DataFrame(_data).to_pickle('noteData.zip')
 
@@ -132,3 +169,7 @@ def chantData():
 
 def noteData():
     return pd.read_pickle('noteData.zip')
+
+basicModes = ['1d','2d','3e','4e','5f','6f','7g','8g']
+basicTranspositions = ['4a', '5c', '6c']
+psalmTones = ['1v','2v','3v','4v','5v','6v','7v','8v']
