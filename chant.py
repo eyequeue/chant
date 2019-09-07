@@ -198,3 +198,6 @@ modesPsalm = ['1v','2v','3v','4v','5v','6v','7v','8v']
 
 basicModes = modesMain 
 psalmTones = modesPsalm
+
+cd = pd.read_pickle('chantData.zip')
+nd = pd.read_pickle('noteData.zip')
