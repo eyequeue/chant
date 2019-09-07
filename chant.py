@@ -45,6 +45,16 @@ def _recalculate():
         _data['subcorpus'].append(translate_subcorpus[_subcorpus])
         _data['Modus'].append(c.mode)
         _data['modus'].append(c.mode.lower())
+        if c.mode[0] in ['1','2']:
+            _data['mamneria'].append('protus')
+        elif c.mode[0] in ['3','4']:
+            _data['mamneria'].append('deuterus')
+        elif c.mode[0] in ['5','6']:
+            _data['mamneria'].append('tritus')
+        elif c.mode[0] in ['7','8']:
+            _data['mamneria'].append('tetrardus')
+        else:
+            _data['mamneria'].append('unknown')
         _data['office'].append(' '.join(c.office.split()[1:]))
 
         # switching the names Service/service and Genre/genre from lmlo module
