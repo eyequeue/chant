@@ -18,7 +18,7 @@ decodeGenre = fullGenre
     # '': '',
 
 
-def recalculate():
+def _recalculate():
 
     corpus = lmloCorpus()
 
@@ -98,8 +98,11 @@ def recalculate():
 
                     _data['reg_abs'].append(n.letter[0])
                     _data['pc_abs'].append(n.letter[1])
+                    _data['pitch_abs'].append( n.letter[0] + '.' + n.letter[1])
                     _data['reg_rel'].append(n.sd[0])
                     _data['pc_rel'].append(n.sd[1])
+                    _data['pitch_rel'].append( n.sd[0] + '.' + n.sd[1])
+                    
 
                     # calculate intervallic context
 
@@ -164,11 +167,12 @@ def displayChant(idx):
 #     if _name.startswith('_'):
 #         del globals()[_name]
 
-def chantData():
-    return pd.read_pickle('chant/chantData.zip')
+def display_percent(x):    # used for easier-to-read probability tables
+    if x == 0:
+        return ''
+    else:
+        return str(int(x*100)) + '%'
 
-def noteData():
-    return pd.read_pickle('chant/noteData.zip')
 
 basicAuthentics = ['1d','3e','5f','7g']
 basicPlagals = ['2d','4e','6f','8g']
