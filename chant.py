@@ -184,8 +184,17 @@ def display_percent(x):    # used for easier-to-read probability tables
         return str(int(x*100)) + '%'
 
 
-basicAuthentics = ['1d','3e','5f','7g']
-basicPlagals = ['2d','4e','6f','8g']
-basicModes = ['1d','2d','3e','4e','5f','6f','7g','8g']
-basicTranspositions = ['4a', '5c', '6c']
-psalmTones = ['1v','2v','3v','4v','5v','6v','7v','8v']
+modesHapax = ['1e','4b','7a','7c']
+modesRare = ['2g','2a','8c']
+modesTransp = ['4a', '5c', '6c']
+modesMain = ['1d','2d','3e','4e','5f','6f','7g','8g']
+modesMore = modesMain + modesTransp
+modesMost = modesMore + modeRare
+modesAll  = modesMost + modesHapax
+
+modesBasicAuth = ['1d','3e','5f','7g']
+modesBasicPlag = ['2d','4e','6f','8g']
+modesPsalm = ['1v','2v','3v','4v','5v','6v','7v','8v']
+
+basicModes = modesBasic 
+psalmTones = modesPsalm
