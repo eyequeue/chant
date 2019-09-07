@@ -60,7 +60,7 @@ def recalculate():
         # _data['lmloEncoding'].append(c.lmloEncoding)
         _data['volpiano'].append(c.volpiano)
 
-    pd.DataFrame(_data).to_pickle('chant/chantData.zip')
+    pd.DataFrame(_data).to_pickle('chantData.zip')
 
     # populate note data frame
 
@@ -124,7 +124,7 @@ def recalculate():
 
 
 
-    pd.DataFrame(_data).to_pickle('chant/noteData.zip')
+    pd.DataFrame(_data).to_pickle('noteData.zip')
 
 def vdisplay(volpiano, size=24, addClef = False, color='black', tenorClef=True):
     if addClef:
@@ -165,10 +165,10 @@ def displayChant(idx):
 #         del globals()[_name]
 
 def chantData():
-    return pd.read_pickle('chantData.zip')
+    return pd.read_pickle('chant/chantData.zip')
 
 def noteData():
-    return pd.read_pickle('noteData.zip')
+    return pd.read_pickle('chant/noteData.zip')
 
 basicAuthentics = ['1d','3e','5f','7g']
 basicPlagals = ['2d','4e','6f','8g']
