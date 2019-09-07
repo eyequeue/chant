@@ -168,7 +168,7 @@ def displayChant(idx):
 #         del globals()[_name]
 
 def display_percent(x):    # used for easier-to-read probability tables
-    if x == 0:
+    if x == 0 or numpy.isnan(x)
         return ''
     else:
         return str(int(x*100)) + '%'
