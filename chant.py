@@ -124,7 +124,7 @@ def recalculate():
 
 
 
-    pd.DataFrame(_data).to_pickle('noteData.zip')
+    pd.DataFrame(_data).to_pickle('chant/noteData.zip')
 
 def vdisplay(volpiano, size=24, addClef = False, color='black', tenorClef=True):
     if addClef:
