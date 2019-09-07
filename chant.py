@@ -189,12 +189,12 @@ modesRare = ['2g','2a','8c']
 modesTransp = ['4a', '5c', '6c']
 modesMain = ['1d','2d','3e','4e','5f','6f','7g','8g']
 modesMore = modesMain + modesTransp
-modesMost = modesMore + modeRare
+modesMost = modesMore + modesRare
 modesAll  = modesMost + modesHapax
 
 modesBasicAuth = ['1d','3e','5f','7g']
 modesBasicPlag = ['2d','4e','6f','8g']
 modesPsalm = ['1v','2v','3v','4v','5v','6v','7v','8v']
 
-basicModes = modesBasic 
+basicModes = modesMain 
 psalmTones = modesPsalm
