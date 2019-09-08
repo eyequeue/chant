@@ -202,8 +202,8 @@ modesMore = modesMain + modesTransp
 modesMost = modesMore + modesRare
 modesAll  = modesMost + modesHapax
 
-modesBasicAuth = ['1d','3e','5f','7g']
-modesBasicPlag = ['2d','4e','6f','8g']
+modesMainAuth = ['1d','3e','5f','7g']
+modesMainPlag = ['2d','4e','6f','8g']
 modesPsalm = ['1v','2v','3v','4v','5v','6v','7v','8v']
 
 basicModes = modesMain 
