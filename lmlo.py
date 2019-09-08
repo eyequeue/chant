@@ -266,14 +266,27 @@ def sd2letter (sd, mode):
         raise NameError("Can't translate final: " + final)
     if len(sd) != 2 and sd[0] not in octaveGamut and sd[1] not in sdGamut:
         raise NameError("Can't translate sd: " + sd)
-    i = octaveGamut.find(sd[0]) * 7 + \
-        sdGamut.find(sd[1]) + \
-        letterGamut.find(final)
-    if mode.lower() in ['8c', '6c', '5c']: 
-        i += 7
+    
+    i = 'defgabc'.find(final)+10
+    i += sdGamut.find(sd[1])
+    i += (octaveGamut.find(sd[0])-1) *7
+    
     letter = letterGamut[i%7]
     octave = octaveGamut[i//7]
+
+    # print(f'sd={sd} mode={mode} i={i} pitch={octave}.{letter}')
     return octave+letter
+
+
+    # i =  6    7    8    9    10   11   12   13   14   15   16  17
+    # let =g    a    b    c    d    e    f    g    a    b    c   d
+    # oct =0    1    1    1    1    1    1    1    2    2    2   2
+
+    # final                    d    e    f    g    a    b    c     
+
+# sd = 1.1
+#   defg : 1.defg
+#   abc : 2.abc
 
 # def letter2sd (letter, mode):
 
