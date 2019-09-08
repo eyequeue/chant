@@ -145,7 +145,7 @@ def _recalculate():
 
 
                     if i == 1:
-                        _data['lint'].append(-99)
+                        _data['lint'].append(99)
                         _data['lint_class'].append('edge')
                         _data['lint_dir'].append('edge')
                     else:
