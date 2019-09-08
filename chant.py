@@ -147,17 +147,32 @@ def _recalculate():
                     if i == 1:
                         _data['lint'].append(-99)
                         _data['lint_class'].append('edge')
+                        _data['lint_dir'].append('edge')
                     else:
                         interval = int(pindex(c.flatSD[i]) - pindex(c.flatSD[i-1]))
                         _data['lint'].append(interval)
                         _data['lint_class'].append(intclass(interval))
+                        if interval > 0:
+                            _data['lint_dir'].append('up')
+                        elif interval < 0:
+                            _data['lint_dir'].append('down')
+                        else:
+                            _data['lint_dir'].append('rep')
+
                     if i == len(c.flatSD)-2:
                         _data['rint_class'].append('edge')
+                        _data['rint_dir'].append('edge')
                         _data['rint'].append(99)
                     else:
                         interval = int(pindex(c.flatSD[i+1]) - pindex(c.flatSD[i]))
                         _data['rint'].append(interval)
                         _data['rint_class'].append(intclass(interval))
+                        if interval > 0:
+                            _data['rint_dir'].append('up')
+                        elif interval < 0:
+                            _data['rint_dir'].append('down')
+                        else:
+                            _data['rint_dir'].append('rep')
                         
 
                     i += 1
