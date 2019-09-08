@@ -84,6 +84,23 @@ def _recalculate():
 
     # populate note data frame
 
+    # first some utils we'll use in the loop below
+
+    def pindex(sd):
+        return (int(sd[0])*7 + int(sd[1]))
+
+    def intclass(interval):
+        interval = abs(interval)
+        if interval == 0:
+            return 'rep'
+        elif interval == 1:
+            return 'step'
+        elif interval == 2:
+            return 'slip'
+        else:
+            return 'leap'
+
+
     _data = defaultdict(list)
     for i_c, c in enumerate(corpus.chants):
         i = 1
@@ -126,20 +143,22 @@ def _recalculate():
 
                     # calculate intervallic context
 
-                    def pindex(sd):
-                        return (int(sd[0])*7 + int(sd[1]))
-
-
 
                     if i == 1:
                         _data['lint'].append(-99)
+                        _data['lint_class'].append('edge')
                     else:
-                        _data['lint'].append(int(pindex(c.flatSD[i]) - pindex(c.flatSD[i-1])))
+                        interval = int(pindex(c.flatSD[i]) - pindex(c.flatSD[i-1]))
+                        _data['lint'].append(interval)
+                        _data['lint_class'].append(intclass(interval))
                     if i == len(c.flatSD)-2:
+                        _data['rint_class'].append('edge')
                         _data['rint'].append(99)
                     else:
-                        _data['rint'].append(int(pindex(c.flatSD[i+1]) - pindex(c.flatSD[i])))
-
+                        interval = int(pindex(c.flatSD[i+1]) - pindex(c.flatSD[i]))
+                        _data['rint'].append(interval)
+                        _data['rint_class'].append(intclass(interval))
+                        
 
                     i += 1
 
