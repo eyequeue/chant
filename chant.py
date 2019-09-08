@@ -55,6 +55,16 @@ def _recalculate():
             _data['maneria'].append('tetrardus')
         else:
             _data['maneria'].append('unknown')
+        if c.mode[1] == c.mode[1].upper():
+            _data['ambitus'].append('excessive')
+        elif c.mode[0] in ['1','3','5','7']:
+            _data['ambitus'].append('authentic')
+        elif c.mode[0] in ['2','4','6','8']:
+            _data['ambitus'].append('plagal')
+        else:
+            _data['ambitus'].append('unknown')
+
+
         _data['office'].append(' '.join(c.office.split()[1:]))
 
         # switching the names Service/service and Genre/genre from lmlo module
@@ -199,5 +209,10 @@ modesPsalm = ['1v','2v','3v','4v','5v','6v','7v','8v']
 basicModes = modesMain 
 psalmTones = modesPsalm
 
-cd = pd.read_pickle('chant/chantData.zip')
-nd = pd.read_pickle('chant/noteData.zip')
+try:
+    cd = pd.read_pickle('chant/chantData.zip')
+    nd = pd.read_pickle('chant/noteData.zip')
+except:
+    cd = pd.read_pickle('chantData.zip')
+    nd = pd.read_pickle('noteData.zip')
+

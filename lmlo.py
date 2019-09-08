@@ -269,7 +269,7 @@ def sd2letter (sd, mode):
     i = octaveGamut.find(sd[0]) * 7 + \
         sdGamut.find(sd[1]) + \
         letterGamut.find(final)
-    if mode.lower()=='4a' or mode.lower()=='6c' or mode.lower() =='5c': i += 7 
+    if mode.lower in ['2a', '4a', '6c', '5c']: i += 7 
     letter = letterGamut[i%7]
     octave = octaveGamut[i//7]
     return octave+letter
