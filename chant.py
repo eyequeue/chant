@@ -195,7 +195,7 @@ def vdisplay(volpiano, size=24, addClef = False, color='black', tenorClef=True):
 
 def displayChant(idx):
     
-    c = chantData.iloc[idx]
+    c = cd.iloc[idx]
 
     htmlOut = ''
     htmlOut += f'<span style="font: 12px Roboto"><a href="displaychants?office={c.office}">{c.office}</a> | {fullGenre[c.genre]}'
