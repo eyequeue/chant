@@ -198,17 +198,17 @@ def displayChant(idx):
     c = cd.iloc[idx]
 
     htmlOut = ''
-    htmlOut += f'<span style="font: 12px Roboto"><a href="displaychants?office={c.office}">{c.office}</a> | {fullGenre[c.genre]}'
+    htmlOut += f'<span style="font: 12px Roboto"><a href="http://corpus.music.yale.edu/displaychants?office={c.office}">{c.office}</a> | {fullGenre[c.genre]}'
 
 
     fullS = fullService[c.service]
     s = c.service
     htmlOut += f'<table><tr><td style="text-align:left;vertical-align:top">'
 
-    htmlOut += f'<span style="font: 12px Roboto"><span style="font-weight:900;"><a href="displaychants?office={c.office}&service={s}">{fullS}</a>&nbsp;{c.ordinal} </span><br>'
+    htmlOut += f'<span style="font: 12px Roboto"><span style="font-weight:900;"><a href="http://corpus.music.yale.edu/displaychants?office={c.office}&service={s}">{fullS}</a>&nbsp;{c.ordinal} </span><br>'
 
     # htmlOut += f'<span style="font:18px Roboto; font-weight=900"><b>{fullS[0].upper()}</b><span style="font: 12px Roboto">{fullS[1:]}&nbsp;</span><br>'
-    htmlOut += f'<span style="font:18px Roboto; font-weight=900"><b><a href="displaychants?genre={c.genre}&mode={c.modus}"><span title={fullGenre[c.genre]}>{c.genre}</span>&#8209;{c.modus}</b></span></a>'
+    htmlOut += f'<span style="font:18px Roboto; font-weight=900"><b><a href="http://corpus.music.yale.edu/displaychants?genre={c.genre}&mode={c.modus}"><span title={fullGenre[c.genre]}>{c.genre}</span>&#8209;{c.modus}</b></span></a>'
     htmlOut += '</td><td style="text-align:left;vertical-align:top"><span style="font:32px volpiano;">'
     htmlOut += tenorclef(c.volpiano)
     htmlOut += '</span></td></tr></table><br>'
@@ -216,6 +216,9 @@ def displayChant(idx):
     htmlOut += '<span style="font: 12px Merriweather;">{}</span><br><br><br>'.format(c.text.lower())
     display(HTML(htmlOut))
     return
+
+def displayVolpiano(volpiano):
+    display(HTML(tenorclef(volpiano)))
 
 # for _name in dir():
 #     if _name.startswith('_'):
