@@ -214,11 +214,13 @@ def displayChant(idx):
     htmlOut += '</span></td></tr></table><br>'
     for i in range(18): htmlOut += '&nbsp;'
     htmlOut += '<span style="font: 12px Merriweather;">{}</span><br><br><br>'.format(c.text.lower())
-    display(HTML(htmlOut))
     return
 
 def displayVolpiano(volpiano):
-    display(HTML(tenorclef(volpiano)))
+    htmlOut += '<span style="font:32px volpiano;">'
+    htmlOut += tenorclef(volpiano)
+    htmlOut += '</span>'
+    display(HTML(htmlOut))
 
 # for _name in dir():
 #     if _name.startswith('_'):
