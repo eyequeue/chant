@@ -217,6 +217,7 @@ def displayChant(idx):
     return
 
 def displayVolpiano(volpiano):
+    htmlOut = ''
     htmlOut += '<span style="font:32px volpiano;">'
     htmlOut += tenorclef(volpiano)
     htmlOut += '</span>'
