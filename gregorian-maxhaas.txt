@@ -14878,7 +14878,7 @@ GR
 Revelabit Dominus
 GradualeV
 GrTr 272
-[Re-] f [ve-] a g [la-] g c' [bit] c' [Do-] d' c' c' mc' c' a [mi-] c' c' d' c' c' c' c' g a h g f c' c' [nus] c' [con-] c' [den-] d' c' f' f' c' d' c' f' f' f' d' d' ld c' [sa:] c' d' c' c' a h a [et] a [in] c' [tem-] d' e' [plo] d' c' [e-] a a g a a g a c' a a g g f g [ius] g f [om-] f [nes] f [di-] f a g f [cent] g a [glo-] a c' h a c' c' c' [ri-] c' [am.] c' c' a h a h g f a h g f a g c' c' c' c' a a f a g a g g f 
+[Re-] f [ve-] a g [la-] g c' [bit] c' [Do-] d' c' c' c' c' a [mi-] c' c' d' c' c' c' c' g a h g f c' c' [nus] c' [con-] c' [den-] d' c' f' f' c' d' c' f' f' f' d' d' ld c' [sa:] c' d' c' c' a h a [et] a [in] c' [tem-] d' e' [plo] d' c' [e-] a a g a a g a c' a a g g f g [ius] g f [om-] f [nes] f [di-] f a g f [cent] g a [glo-] a c' h a c' c' c' [ri-] c' [am.] c' c' a h a h g f a h g f a g c' c' c' c' a a f a g a g g f 
 Re- ve- la- bit Do- mi- nus con- den- sa: et in tem- plo e- ius om- nes di- cent glo- ri- am.
 2126
 GR
@@ -14892,7 +14892,7 @@ GR
 Domine libera animam
 GradualeV
 GrTr 282
-[Do-] c' [mi-] d' c' [ne,] c' c' h a d' h c' d' h c' d' c' c' d' c' h g a a a a a a a a a a c' d' c' h h g a g [li-] h c' d' [be-] c' d' c' h a h [ra] a [a-] a h c' [ni-] h [mam] a ld g [me-] a c' c' c' [am] c' a c' a a f g f [a] f [la-]a f a g f a f g a or h c' c' d' [bi-] c' [is] c' [in-] c' [i-] d' c' h c' h a d' c' c' c' c' a g a g a c' c' d' c' h [quis,] c' [et] c' c' d' [a] c' [lin-]c' a c' c' c' g a g a ld f [gua] g f [do-] c! [lo-] c' [sa.] d' c' c' c' a g g f a f a g f a f g a c' c' d' e' h c' a g h a f 
+[Do-] c' [mi-] d' c' [ne,] c' c' h a d' h c' d' h c' d' c' c' d' c' h g a a a a a a a a a a c' d' c' h h g a g [li-] h c' d' [be-] c' d' c' h a h [ra] a [a-] a h c' [ni-] h [mam] a ld g [me-] a c' c' c' [am] c' a c' a a f g f [a] f [la-]a f a g f a f g a or h c' c' d' [bi-] c' [is] c' [in-] c' [i-] d' c' h c' h a d' c' c' c' c' a g a g a c' c' d' c' h [quis,] c' [et] c' c' d' [a] c' [lin-]c' a c' c' c' g a g a ld f [gua] g f [do-] c' [lo-] c' [sa.] d' c' c' c' a g g f a f a g f a f g a c' c' d' e' h c' a g h a f 
 Do- mi- ne, li- be- ra a- ni- mam me- am a la- bi- is in- i- quis, et a lin- gua do- lo- sa. 
 2128
 GR
@@ -15298,7 +15298,7 @@ GR
 Suscipiant montes
 OffertoriumV
 OffTr 22
-[Sus-] f a [ci-] c' a c' d' a c' d' [pi-] c' d'  [ant] d' c' c' c' d' c' d' c' c' c' c' a g g f g a f [mon-] f a c' d' c' c' c' c' c' c' c' a h a g a g f g f d f g ff f f d a d' c' c' c' c' a c' e' d' c' c' c' a c' d' d' c' d' c' d' [tes] d' c' c' c' d' c' d' c' c' c' c' a g g f g  [pa-] f g a c' a [cem] a [po-] a g a g a  [pu-] f g [lo] g a [tu-] a c' c' c' c' c' a g h a [o] a [et] a c' [col-] c' c' c' d' e'  [les] c' d' [iu-] c' [sti-] c' e' d' c' [ti-] c' c' d' c' [am.] c' a d' c' d' c' a a f a h c' h a c' a f g a f g a g c' c' c' a g a c' 
+[Sus-] f a [ci-] c' a c' d' a c' d' [pi-] c' d'  [ant] d' c' c' c' d' c' d' c' c' c' c' a g g f g a f [mon-] f a c' d' c' c' c' c' c' c' c' a h a g a g f g f d f g f f f f d a d' c' c' c' c' a c' e' d' c' c' c' a c' d' d' c' d' c' d' [tes] d' c' c' c' d' c' d' c' c' c' c' a g g f g  [pa-] f g a c' a [cem] a [po-] a g a g a  [pu-] f g [lo] g a [tu-] a c' c' c' c' c' a g h a [o] a [et] a c' [col-] c' c' c' d' e'  [les] c' d' [iu-] c' [sti-] c' e' d' c' [ti-] c' c' d' c' [am.] c' a d' c' d' c' a a f a h c' h a c' a f g a f g a g c' c' c' a g a c' 
 Sus- ci- pi- ant mon- tes pa- cem po- pu- lo tu- o et col- les iu- sti- ti- am.
 2186
 GR
@@ -15326,7 +15326,7 @@ GR
 Qui custodit veritatem
 OffertoriumV
 OffTr 67
-[Qui] c [cu-] d [sto-] f g a [dit] e g f e a a g a g c' c' a h g a [ve-] e f [ri-] g [ta-] a g a c' [tem] g f [in] f f f d g e g f g a g [se-] r [cu-] r g f f [lum:] f e [fa-] e g a g a [ci-] f [ens] f f f d e f e [iu-] d c [di-] d f g f [ci-] f e [um] f [in-] f g f [iu-] f e [ri-] f e [am] f f f d e f e [pa-] d c [ti-] d f g f [en-] f d g e g f g a g [ti-] e g f f [bus:] f e [dat] c e g f f [e-] d g e f a g [scam] e [e-] f a g [su-] g a f [ri-] e d [en-] e d f d f f f [ti-] d [bus.] d or e f d e f e  
+[Qui] c [cu-] d [sto-] f g a [dit] e g f e a a g a g c' c' a h g a [ve-] e f [ri-] g [ta-] a g a c' [tem] g f [in] f f f d g e g f g a g [se-] f [cu-] f g f f [lum:] f e [fa-] e g a g a [ci-] f [ens] f f f d e f e [iu-] d c [di-] d f g f [ci-] f e [um] f [in-] f g f [iu-] f e [ri-] f e [am] f f f d e f e [pa-] d c [ti-] d f g f [en-] f d g e g f g a g [ti-] e g f f [bus:] f e [dat] c e g f f [e-] d g e f a g [scam] e [e-] f a g [su-] g a f [ri-] e d [en-] e d f d f f f [ti-] d [bus.] d or e f d e f e  
 Qui cu- sto- dit ve- ri- ta- tem in se- cu- lum: fa- ci- ens iu- di- ci- um in- iu- ri- am pa- ti- en- ti- bus: dat e- scam e- su- ri- en- ti- bus.
 2190
 GR
