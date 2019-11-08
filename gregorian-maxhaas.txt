@@ -388,7 +388,7 @@ GR
 Exsultate deo
 Introitus
 GrTr 311
-[Ex-] a [sul-] a f g [ta-] a g c' c' c' d' [te] c' [De-] c' d' [o] c' [ad-] c' [iu-] c' [to-] c' d' c' [ri] c' h d' [no-] d' e' c' [stro:] c' d' c' [iu-] c' [bi-] d' e' d' [la-] e' [te] c' [De-] c' e' d' c' [o] c' c' [Ia-] c' d' c' [cob:] c' [su-] c' c' d' [mi-] c' [te] c' [psal-] c' d' c' c' c' [mum] a g [iu-] a f g [cun-] c' lu c' [dum] c' [cum] c' h d' [ci-] d' e' c' [tha-] c' d' c' [ra:] c' [ca-] c' c' d' [ni-] c' [te] c' [[in]] c' [i-] c' [ni-] c' [ti-] c' [o] c' d' [men-] ld c' [sis] c' [tu-] d' f' e' [ba:] e' [qui-] c' a [a] c' [prae-] e' [cep-] e' or f' g' [tum] d' [in] c' [Is-] c' h [ra-] d' [el] d' f' e' d' [est,] d' c' [et] c' [iu-] c' [di-] c' c' c' [ci-] a g [um] g [De-] a f g [o] c' c' [Ia-] c' h d' e' c' [cob.] c' 
+[Ex-] a [sul-] a f g [ta-] a g c' c' c' d' [te] c' [De-] c' d' [o] c' [ad-] c' [iu-] c' [to-] c' d' c' [ri] c' h d' [no-] d' e' c' [stro:] c' d' c' [iu-] c' [bi-] d' e' d' [la-] e' [te] c' [De-] c' e' d' c' [o] c' c' [Ia-] c' d' c' [cob:] c' [su-] c' c' d' [mi-] c' [te] c' [psal-] c' d' c' c' c' [mum] a g [iu-] a f g [cun-] c' lu c' [dum] c' [cum] c' h d' [ci-] d' e' c' [tha-] c' d' c' [ra:] c' [ca-] c' c' d' [ni-] c' [te] c' [in] c' [i-] c' [ni-] c' [ti-] c' [o] c' d' [men-] ld c' [sis] c' [tu-] d' f' e' [ba:] e' [qui-] c' a [a] c' [prae-] e' [cep-] e' or f' g' [tum] d' [in] c' [Is-] c' h [ra-] d' [el] d' f' e' d' [est,] d' c' [et] c' [iu-] c' [di-] c' c' c' [ci-] a g [um] g [De-] a f g [o] c' c' [Ia-] c' h d' e' c' [cob.] c' 
 Ex- sul- ta- te De- o ad- iu- to- ri no- stro: iu- bi- la- te De- o Ia- cob: su- mi- te psal- mum iu- cun- dum cum ci- tha- ra: ca- ni- te [in] i- ni- ti- o men- sis tu- ba: qui- a prae- cep- tum in Is- ra- el est, et iu- di- ci- um De- o Ia- cob.
 57
 GR
@@ -2439,7 +2439,7 @@ AR
 Elevaverunt
 AlleluiaV
 MM 199
-[E-] g a h a g a g a a g [le-] f [va-] a [ve-] c' d' c' [runt] c' c' [flu-] c' d' c' [mi-] c' [na] c' c' [do-] c' e' d' c' h [mi-] d' c' h c' h a [ne] c' h a [e-] h a c' h g [le-] h c' a [va-] h c' a [ve-] h c' a [runt] h ld c' [flu-] h c' a [mi-] h c' a [na] h c' a [vo-] c' d' e' d' c' d' [ces] c' [su-] e' d' e' f' e' [as] or e' d' c' h c' a g a c' h a g a a g [[A]l-] f g [le-] a [u-] c' c' d' c' h d' [a] d' e' d' c' d' c' h a c' d' e' d' c' d' e' d' c' d' c' h a c' d' f' g' f' e' f' d' c' e' d' c' d' e' f' d' or d' e' f' d' d' c' d' e' d' c' or c' d' e' d' c' h c' d' c' h a g a c' a c' h d' c' h c' a g a c' h a g a a g 
+[E-] g a h a g a g a a g [le-] f [va-] a [ve-] c' d' c' [runt] c' c' [flu-] c' d' c' [mi-] c' [na] c' c' [do-] c' e' d' c' h [mi-] d' c' h c' h a [ne] c' h a [e-] h a c' h g [le-] h c' a [va-] h c' a [ve-] h c' a [runt] h ld c' [flu-] h c' a [mi-] h c' a [na] h c' a [vo-] c' d' e' d' c' d' [ces] c' [su-] e' d' e' f' e' [as] or e' d' c' h c' a g a c' h a g a a g [Al-] f g [le-] a [u-] c' c' d' c' h d' [a] d' e' d' c' d' c' h a c' d' e' d' c' d' e' d' c' d' c' h a c' d' f' g' f' e' f' d' c' e' d' c' d' e' f' d' or d' e' f' d' d' c' d' e' d' c' or c' d' e' d' c' h c' d' c' h a g a c' a c' h d' c' h c' a g a c' h a g a a g 
 E- le- va- ve- runt flu- mi- na do- mi- ne e- le- va- ve- runt flu- mi- na vo- ces su- as [A]l- le- u- a
 3
 GR
@@ -2754,7 +2754,7 @@ AR
 O Kyrios
 AlleluiaV
 MM 168
-[[A]-] c [E-] d [u-] f g [i] g a g f g f e f e d f g a g a g or g c d f d e f d f f f d e d [[V].O] c d [Ki-] f [ri-] f g [oc] or g f e d e d f [ke-] f e [ba-] d [ky-] e f [le-] g [oc-] g [en] e f g f e [eu-] e g ld a [pre-] g a g or f e d [pi-] g [a] g a g or f e d c d e d c [e-] f e d f e d [ne-] f e d f e d [di-] f e [sa-] d f e f e [to] e d e f e d [e-] c [ne-] d f [di-] f e [sa-] f d c [tom] f g [Ky-] a g or g f e [ri-] f d c [oc] f g [di-] a g a g f or f e d e [na-] d e f g f e d e c [min] d f e d c [Ke] d [ne-] or d [pi-] c [e-] d [zo-] f g [ca-] a g f [ton] g f e f d f f or f d e d 
+[A-] c [E-] d [u-] f g [i] g a g f g f e f e d f g a g a g or g c d f d e f d f f f d e d [O] c d [Ki-] f [ri-] f g [oc] or g f e d e d f [ke-] f e [ba-] d [ky-] e f [le-] g [oc-] g [en] e f g f e [eu-] e g ld a [pre-] g a g or f e d [pi-] g [a] g a g or f e d c d e d c [e-] f e d f e d [ne-] f e d f e d [di-] f e [sa-] d f e f e [to] e d e f e d [e-] c [ne-] d f [di-] f e [sa-] f d c [tom] f g [Ky-] a g or g f e [ri-] f d c [oc] f g [di-] a g a g f or f e d e [na-] d e f g f e d e c [min] d f e d c [Ke] d [ne-] or d [pi-] c [e-] d [zo-] f g [ca-] a g f [ton] g f e f d f f or f d e d 
 [A]- E- u- i [V].O Ki- ri- oc ke- ba- ky- le- oc- en eu- pre- pi- a e- ne- di- sa- to e- ne- di- sa- tom Ky- ri- oc di- na- min Ke ne- pi- e- zo- ca- ton
 48
 GR
@@ -3762,7 +3762,7 @@ AR
 Cantate ei et psallite
 AlleluiaV
 MM 191
-[Can-] g or a [ta-] c' d' c' [te] c' [e-] c' d' c' [i] c' [et] c' [psal-] c' d' c' [li-] c' [te] c' c' [e-] c' e' d' c' h d' c' h or c' h a [i] h a c' h a [nar-] g or a [ra-] c' d' c' [te] c' [o-] c' d' e' d' c' h [mni-] d' c' h c' h a [a] c' h a [mi-] c' [ra-] a [bi-] c' d' e' d' c' d' [li-] or d' [a] c' [e-] e' d' e' ld f' [ius] or e' d' c' h c' a g a c' h a g a a g [A-] f g [e-] a [u-] c' c' d' c' h d' [[a]] < d' e' d' c' d' c' h a c' d' c' or h a g a c' a c' h d' c' h c' a g a c' h a g a a g > 
+[Can-] g or a [ta-] c' d' c' [te] c' [e-] c' d' c' [i] c' [et] c' [psal-] c' d' c' [li-] c' [te] c' c' [e-] c' e' d' c' h d' c' h or c' h a [i] h a c' h a [nar-] g or a [ra-] c' d' c' [te] c' [o-] c' d' e' d' c' h [mni-] d' c' h c' h a [a] c' h a [mi-] c' [ra-] a [bi-] c' d' e' d' c' d' [li-] or d' [a] c' [e-] e' d' e' ld f' [ius] or e' d' c' h c' a g a c' h a g a a g [A-] f g [e-] a [u-] c' c' d' c' h d' [a] < d' e' d' c' d' c' h a c' d' c' or h a g a c' a c' h d' c' h c' a g a c' h a g a a g > 
 Can- ta- te e- i et psal- li- te e- i nar- ra- te o- mni- a mi- ra- bi- li- a e- ius A- e- u- [a]
 192
 AR
@@ -9103,7 +9103,7 @@ AR
 Si consurrexistis
 Communio
 MM 477
-[Si] g a h a [con-] g a g a g f g [sur-] g c' d' [re-] or d' c' h [xi-] d' c' d' [stis] d' [cum] ld c' [xpi-] a c' h c' [[s]to] c' or d' c' h [que] c' [sur-] d' ld e' [sum] d' [sunt] c' or c' h a [que-] c' d' c' [ri-] c' h [te] a h c' a h a g a g [a-] ld c' [e-] c' d' [u-] c' d' c' h a h c' d' c' h a h ld a [a] a g a h c' h a h a [u-] g [bi] a h [xpi-] h [stus] h a h c' h [est] h or h a g a h c' h a c' h a [in] g [de-] c' [xte-] c' [ra] c' c' a [de-] d' e' [i] e' d' [se-] a c' h c' [dens] c' d' c' h [que] c' [sur-] e' ld f' [sum] f' [sunt] e' or e' d' c' [sa-] e' f' e' [pi-] d' c' [te] a h c' a h a g a g [a-] c' [e-] c' d' c' h a g h a h c' h g h a c' h a g [lu-] g a c' h a or h a g a [ia] a a g 
+[Si] g a h a [con-] g a g a g f g [sur-] g c' d' [re-] or d' c' h [xi-] d' c' d' [stis] d' [cum] ld c' [xpi-] a c' h c' [sto] c' or d' c' h [que] c' [sur-] d' ld e' [sum] d' [sunt] c' or c' h a [que-] c' d' c' [ri-] c' h [te] a h c' a h a g a g [a-] ld c' [e-] c' d' [u-] c' d' c' h a h c' d' c' h a h ld a [a] a g a h c' h a h a [u-] g [bi] a h [xpi-] h [stus] h a h c' h [est] h or h a g a h c' h a c' h a [in] g [de-] c' [xte-] c' [ra] c' c' a [de-] d' e' [i] e' d' [se-] a c' h c' [dens] c' d' c' h [que] c' [sur-] e' ld f' [sum] f' [sunt] e' or e' d' c' [sa-] e' f' e' [pi-] d' c' [te] a h c' a h a g a g [a-] c' [e-] c' d' c' h a g h a h c' h g h a c' h a g [lu-] g a c' h a or h a g a [ia] a a g 
 Si con- sur- re- xi- stis cum xpi- [s]to que sur- sum sunt que- ri- te a- e- u- a u- bi xpi- stus est in de- xte- ra de- i se- dens que sur- sum sunt sa- pi- te a- e- lu- ia
 122
 GR
@@ -10090,7 +10090,7 @@ AR
 Quis dabit ex Sion
 Communio
 MM 422
-[Quis] c' [da-] c' or c' h a [bit] c' h a [ex] c' [si-] c' [on] c' e' d' c' h c' d' d' c' [sa-] h [lu-] d' [ta-] c' h [re] a h c' d' c' h a c' h a g [is-] a [ra-] c' h [hel] c' d' c' h c' d' [dum] a g d' e' [a-] e' [ver-] d' e' [tit] ld d' [do-] c' d' [mi-] d' c' [nus] c' h c' d' [ca-] a h [pti-] a h [vi-] a g [ta-] a h [tem] a g [ple-] h c' d' c' [bis] h a c' h a g [su-] g a c' a [e] a c' h a g [e-] a [xul-] c' [ta-] c' [vit] c' c' c' ld h [ia-] h a g [cob] a f g a h h a [et] a [le-] d' [ta-] c' h [bi-] a c' h a [tur] a c' h a g [is-] a [[ra]-] c' h [hel] c' d' c' h a h a c' h a h c' d' c' h a g a c' h or c' h a 
+[Quis] c' [da-] c' or c' h a [bit] c' h a [ex] c' [si-] c' [on] c' e' d' c' h c' d' d' c' [sa-] h [lu-] d' [ta-] c' h [re] a h c' d' c' h a c' h a g [is-] a [ra-] c' h [hel] c' d' c' h c' d' [dum] a g d' e' [a-] e' [ver-] d' e' [tit] ld d' [do-] c' d' [mi-] d' c' [nus] c' h c' d' [ca-] a h [pti-] a h [vi-] a g [ta-] a h [tem] a g [ple-] h c' d' c' [bis] h a c' h a g [su-] g a c' a [e] a c' h a g [e-] a [xul-] c' [ta-] c' [vit] c' c' c' ld h [ia-] h a g [cob] a f g a h h a [et] a [le-] d' [ta-] c' h [bi-] a c' h a [tur] a c' h a g [is-] a [ra-] c' h [hel] c' d' c' h a h a c' h a h c' d' c' h a g a c' h or c' h a 
 Quis da- bit ex si- on sa- lu- ta- re is- ra- hel dum a- ver- tit do- mi- nus ca- pti- vi- ta- tem ple- bis su- e e- xul- ta- vit ia- cob et le- ta- bi- tur is- [ra]- hel
 263
 AR
@@ -10195,7 +10195,7 @@ AR
 Qui meditabitur
 Communio
 MM 455
-[Qui] g [me-] or a [di-] g [ta-] a h [bi-] h [tur] h ld c' [in] ld h [le-] h c' h c' [ge] or h a g [[do-] < a c' h c' [mi-] or c' h a [ni]] h a g a g [di-] a g a g f g f [e] g a [ac] a g a h a g f g f [no-] d f e f [cte] f g f e [da-] a c' h a g a g [bit] a g [fru-] a c' h a [ctum] g a g f [su-] e f a [um] h a g a g f e f e d f e d [in] c d e [tem-] d c g a g [po-] a g [re] or g f e d f [su-] e f g f e [o] f e > 
+[Qui] g [me-] or a [di-] g [ta-] a h [bi-] h [tur] h ld c' [in] ld h [le-] h c' h c' [ge] or h a g [do-] < a c' h c' [mi-] or c' h a [ni] h a g a g [di-] a g a g f g f [e] g a [ac] a g a h a g f g f [no-] d f e f [cte] f g f e [da-] a c' h a g a g [bit] a g [fru-] a c' h a [ctum] g a g f [su-] e f a [um] h a g a g f e f e d f e d [in] c d e [tem-] d c g a g [po-] a g [re] or g f e d f [su-] e f g f e [o] f e > 
 Qui me- di- ta- bi- tur in le- ge [do- mi- ni] di- e ac no- cte da- bit fru- ctum su- um in tem- po- re su- o
 278
 AR
@@ -10902,7 +10902,7 @@ AR
 Ego autem cum iustitia
 OffertoriumV
 MM 320
-[E-] e or f [go] a h a [au-] a g a g or e d c f g a g a g f g a g f g a g f e ld f [tem] e [cum] d [iu-] e d f e d [sti-] e f d [ti-] e f d [a] e f d [ap-] e f d [pa-] e [re-] e g f or f e d [bo] e [in] d [con-] e d f e d [spe-] e or f [ctu] e f g f or a g f g f [tu-] e g f or f e d [o] e [sa-] d [ti-] e d f e d [a-] e f d [bor] e f d [dum] e f d [ma-] e f d [ni-] e f d [fe-] e f d [sta-] e [bi-] e g f or f e d [[tur] < e [glo-] e d f e d [ri-] e f [a] e f g f g a g f g f [tu-] d f e f [a]] e d e f e d e > 
+[E-] e or f [go] a h a [au-] a g a g or e d c f g a g a g f g a g f g a g f e ld f [tem] e [cum] d [iu-] e d f e d [sti-] e f d [ti-] e f d [a] e f d [ap-] e f d [pa-] e [re-] e g f or f e d [bo] e [in] d [con-] e d f e d [spe-] e or f [ctu] e f g f or a g f g f [tu-] e g f or f e d [o] e [sa-] d [ti-] e d f e d [a-] e f d [bor] e f d [dum] e f d [ma-] e f d [ni-] e f d [fe-] e f d [sta-] e [bi-] e g f or f e d [tur] < e [glo-] e d f e d [ri-] e f [a] e f g f g a g f g f [tu-] d f e f [a] e d e f e d e > 
 E- go au- tem cum iu- sti- ti- a ap- pa- re- bo in con- spe- ctu tu- o sa- ti- a- bor dum ma- ni- fe- sta- bi- [tur glo- ri- a tu- a]
 93
 AR
@@ -11644,7 +11644,7 @@ AR
 Operuisti omnia
 OffertoriumV
 MM 317
-[O-] a [pe-] a [ru-] g a h [i-] c' h a h a g a h c' h [sti] h [om-] h c' d' c' d' c' h c' h a h a g f h d' c' ld c' [[ni-]] h d' c' or c' h a [a] h [pec-] c' [ca-] c' c' c' h [ta] a g [e-] a g f g [o-] f g a g or a g f g f e [rum] f e g g g a g f e f g g g e g a c' h a h a g a g [mi-] a [ti-] g a h [ga-] c' h a h a g a h c' [sti] a h a g a g [om-] f g a c' c' h c' h a g g f a c' h a ld h [nem] a c' h a g [i-] a g f e g f e d d c f g a g a c' h a g [ram] g a g f g f [tu-] d f e f [am] f g f e 
+[O-] a [pe-] a [ru-] g a h [i-] c' h a h a g a h c' h [sti] h [om-] h c' d' c' d' c' h c' h a h a g f h d' c' ld c' [ni-] h d' c' or c' h a [a] h [pec-] c' [ca-] c' c' c' h [ta] a g [e-] a g f g [o-] f g a g or a g f g f e [rum] f e g g g a g f e f g g g e g a c' h a h a g a g [mi-] a [ti-] g a h [ga-] c' h a h a g a h c' [sti] a h a g a g [om-] f g a c' c' h c' h a g g f a c' h a ld h [nem] a c' h a g [i-] a g f e g f e d d c f g a g a c' h a g [ram] g a g f g f [tu-] d f e f [am] f g f e 
 O- pe- ru- i- sti om- [ni-] a pec- ca- ta e- o- rum mi- ti- ga- sti om- nem i- ram tu- am
 199
 GR
@@ -14731,7 +14731,7 @@ GR
 Omnes qui videbant
 TractusV
 GrTr 145
-[Om-] f [nes] f f f f f [qui] d [vi-] f d f [de-] g f g a g [bant] g ld e [me,] e g f e f e d e d [as-] d [per-] d [na-] g [ban-] a g g d f f d a g f f e d [tur] d lu e [me:] d c e e d e f g d d c [lo-] c [cu-] e f [ti] d [sunt] d [la-] d c d or e f g [bi-] f g [is] f e f g g f [et] g [mo-] c [ve-] d [runt] f ld e [ca-] f e d [put.]d c d c A d c d e e d 
+[Om-] f [nes] f f f f f [qui] d [vi-] f d f [de-] g f g a g [bant] g ld e [me,] e g f e f e d e d [as-] d [per-] d [na-] g [ban-] a g g d f f d a g f f e d [tur] d lu e [me:] d c e e d e f g d d c [lo-] c [cu-] e f [ti] d [sunt] d [la-] d c d or e f g [bi-] f g [is] f e f g g f [et] g [mo-] c [ve-] d [runt] f ld e [ca-] f e d [put.] d c d c A d c d e e d 
 Om- nes qui vi- de- bant me, as- per- na- ban- tur me: lo- cu- ti sunt la- bi- is et mo- ve- runt ca- put.
 2105
 GR
@@ -14822,7 +14822,7 @@ GR
 Dicant nunc qui
 GradualeV
 GrTr 203
-[Di-] a [cant] c' [nunc,] c' d' [qui] d' [red-] d' [em-] d' [pti] d' [sunt] d' [a] d' [Do-] d' c' d' e' f' e' c' [mi-] c' d' e' d' e' [no:] d' [quos] d' [re-] f' d' or e' f' e' d' [de-] d' [mit] d' [de] d' [ma-] d' [nu] d' [in-] d' [i-] d' e' [mi-] e' c' e' d' c' c' a c' c' a c' c' c' c' a c' d' e' d' c' e' d' c' d' a [ci,] a [et] c' c' [de] c' [re-] c' [gi-] c' d' [o-] d' c' h g a c' h g a c' h d' e' c' a [ni-] a [bus] a c' a g a c' c' a c' c' h a c' g g f [con-] f [gre-] g a [ga-] a c' h a h [vit] g a [e-] c' a c' d' [os.]d' e' c' h c' d' g a c' c' e' d' c' h a or h c' a 
+[Di-] a [cant] c' [nunc,] c' d' [qui] d' [red-] d' [em-] d' [pti] d' [sunt] d' [a] d' [Do-] d' c' d' e' f' e' c' [mi-] c' d' e' d' e' [no:] d' [quos] d' [re-] f' d' or e' f' e' d' [de-] d' [mit] d' [de] d' [ma-] d' [nu] d' [in-] d' [i-] d' e' [mi-] e' c' e' d' c' c' a c' c' a c' c' c' c' a c' d' e' d' c' e' d' c' d' a [ci,] a [et] c' c' [de] c' [re-] c' [gi-] c' d' [o-] d' c' h g a c' h g a c' h d' e' c' a [ni-] a [bus] a c' a g a c' c' a c' c' h a c' g g f [con-] f [gre-] g a [ga-] a c' h a h [vit] g a [e-] c' a c' d' [os.] d' e' c' h c' d' g a c' c' e' d' c' h a or h c' a 
 Di- cant nunc, qui red- em- pti sunt a Do- mi- no: quos re- de- mit de ma- nu in- i- mi- ci, et de re- gi- o- ni- bus con- gre- ga- vit e- os.
 2118
 GR
@@ -14892,7 +14892,7 @@ GR
 Domine libera animam
 GradualeV
 GrTr 282
-[Do-] c' [mi-] d' c' [ne,] c' c' h a d' h c' d' h c' d' c' c' d' c' h g a a a a a a a a a a c' d' c' h h g a g [li-] h c' d' [be-] c' d' c' h a h [ra] a [a-] a h c' [ni-] h [mam] a ld g [me-] a c' c' c' [am] c' a c' a a f g f [a] f [la-]a f a g f a f g a or h c' c' d' [bi-] c' [is] c' [in-] c' [i-] d' c' h c' h a d' c' c' c' c' a g a g a c' c' d' c' h [quis,] c' [et] c' c' d' [a] c' [lin-]c' a c' c' c' g a g a ld f [gua] g f [do-] c' [lo-] c' [sa.] d' c' c' c' a g g f a f a g f a f g a c' c' d' e' h c' a g h a f 
+[Do-] c' [mi-] d' c' [ne,] c' c' h a d' h c' d' h c' d' c' c' d' c' h g a a a a a a a a a a c' d' c' h h g a g [li-] h c' d' [be-] c' d' c' h a h [ra] a [a-] a h c' [ni-] h [mam] a ld g [me-] a c' c' c' [am] c' a c' a a f g f [a] f [la-] a f a g f a f g a or h c' c' d' [bi-] c' [is] c' [in-] c' [i-] d' c' h c' h a d' c' c' c' c' a g a g a c' c' d' c' h [quis,] c' [et] c' c' d' [a] c' [lin-]c' a c' c' c' g a g a ld f [gua] g f [do-] c' [lo-] c' [sa.] d' c' c' c' a g g f a f a g f a f g a c' c' d' e' h c' a g h a f 
 Do- mi- ne, li- be- ra a- ni- mam me- am a la- bi- is in- i- quis, et a lin- gua do- lo- sa. 
 2128
 GR
@@ -14913,21 +14913,21 @@ GR
 Domine refugium
 GradualeV
 GrTr 295
-[Do-] c' [mi-] d' c' [ne] c' c' h a c' h g a a f g a h a g a g f g a c' d' c' d' c' d' e' c' [re-] c' [fu-] d' c' f' f' c' d' c' f' f' d' c' [gi-] c' h c' h a h [um] h a [fa-] c' d' or e' f' [ctus] d' c' [es] c' [no-] a h a g a h a f a g f g f [bis,] f [a] f [ge-]f [ne-] f [ra-] f [ti-] f [o-] f a g f [ne] g a [et] c' [pro-] c' [ge-] c' d' c' a c' c' c' [ni-] c' [e.] c' c' a h a h g f a h g f a g c' c' c' c' a a f a g a g g f
+[Do-] c' [mi-] d' c' [ne] c' c' h a c' h g a a f g a h a g a g f g a c' d' c' d' c' d' e' c' [re-] c' [fu-] d' c' f' f' c' d' c' f' f' d' c' [gi-] c' h c' h a h [um] h a [fa-] c' d' or e' f' [ctus] d' c' [es] c' [no-] a h a g a h a f a g f g f [bis,] f [a] f [ge-] f [ne-] f [ra-] f [ti-] f [o-] f a g f [ne] g a [et] c' [pro-] c' [ge-] c' d' c' a c' c' c' [ni-] c' [e.] c' c' a h a h g f a h g f a g c' c' c' c' a a f a g a g g f
 Do- mi- ne re- fu- gi- um fa- ctus es no- bis, a ge- ne- ra- ti- o- ne et pro- ge- ni- e.
 2131
 GR
 Accedite ad eum
 GradualeV
 OffTr 103
-[Ac-] f [ce-] f [di-] a [te] c' c' h a c' h g a a f g a h a g a g f g a c' d' c' d' c' d' e' c' [ad] c' [e-] d' c' f' f' c' d' c' f' f' d' c' [um,] c' h c' h a [et] c' [il-] c' [lu-] c' [mi-] c' [na-] d' or e' f' [mi-] d' c' [ni:] c' d' c' c' a h a [et] a lu c' [fa-] c' [ci-] c' [es] h [ve-] c' [strae] a [non] f a [con-] g c' h c' [fun-] a [den-] f lu g [tur.]f or g a g a c' d' h c' a f a g a g g f
+[Ac-] f [ce-] f [di-] a [te] c' c' h a c' h g a a f g a h a g a g f g a c' d' c' d' c' d' e' c' [ad] c' [e-] d' c' f' f' c' d' c' f' f' d' c' [um,] c' h c' h a [et] c' [il-] c' [lu-] c' [mi-] c' [na-] d' or e' f' [mi-] d' c' [ni:] c' d' c' c' a h a [et] a lu c' [fa-] c' [ci-] c' [es] h [ve-] c' [strae] a [non] f a [con-] g c' h c' [fun-] a [den-] f lu g [tur.] f or g a g a c' d' h c' a f a g a g g f
 Ac- ce- di- te ad e- um, et il- lu- mi- na- mi- ni: et fa- ci- es ve- strae non con- fun- den- tur.
 2132
 GR
 Sicut in holocausto
 Offertorium
 GrTr 299
-[Sic-] f or g a h [ut] a [in] a [ho-] a h [lo-] a [cau-] a g g f g [sto] g f [a-] f [ri-] g f g [e-] a h a [tum] a [et] a lu c' [tau-] c' h a [ro-] c' h c' a h [rum,] a [et] a [sic-]a or c' d' e' [ut] d' [in] d' [mil-] d' e' d' [li-] c' c' d' c' [bus] c' [a-] c' [gno-] c' d' c' [rum] c' [pin-] c' ld h [gui-] h or c' d' c' h a h [um:] h a [sic] a f a [fi-] a or h c' c' h a h [at] h a [sa-] a [cri-] c' [fi-] c' [ci-] h or c' d' c' h a h [um] h a [no-] a g h a g a [strum] g [in] g [con-] g lu d' [spec-] d' e' d' [tu] c' [tu-] c' d' c' [o] c' [ho-] c' a c' c' [di-] d' c' [e,] c' [ut] a f a [pla-] a or h c' h c' d' c' [ce-] a [at] g a g [ti-] f g a g f g [bi:] g f [qui-] f [a] g a [non] a or h c' h c' d' c' [est] a [con-] g lu a [fu-] f [si-] f g a g f g [o] g f [con-] f [fi-] g a [den-] a [ti-] g [bus] a or h c' h c' d' c' [in] a [te] g a [Do-] f [mi-] f g a g f g [ne.f or g a g a c' a f or g a g a c' a a f g f
+[Sic-] f or g a h [ut] a [in] a [ho-] a h [lo-] a [cau-] a g g f g [sto] g f [a-] f [ri-] g f g [e-] a h a [tum] a [et] a lu c' [tau-] c' h a [ro-] c' h c' a h [rum,] a [et] a [sic-] a or c' d' e' [ut] d' [in] d' [mil-] d' e' d' [li-] c' c' d' c' [bus] c' [a-] c' [gno-] c' d' c' [rum] c' [pin-] c' ld h [gui-] h or c' d' c' h a h [um:] h a [sic] a f a [fi-] a or h c' c' h a h [at] h a [sa-] a [cri-] c' [fi-] c' [ci-] h or c' d' c' h a h [um] h a [no-] a g h a g a [strum] g [in] g [con-] g lu d' [spec-] d' e' d' [tu] c' [tu-] c' d' c' [o] c' [ho-] c' a c' c' [di-] d' c' [e,] c' [ut] a f a [pla-] a or h c' h c' d' c' [ce-] a [at] g a g [ti-] f g a g f g [bi:] g f [qui-] f [a] g a [non] a or h c' h c' d' c' [est] a [con-] g lu a [fu-] f [si-] f g a g f g [o] g f [con-] f [fi-] g a [den-] a [ti-] g [bus] a or h c' h c' d' c' [in] a [te] g a [Do-] f [mi-] f g a g f g [ne.f or g a g a c' a f or g a g a c' a a f g f
 Sic- ut in ho- lo- cau- sto a- ri- e- tum et tau- ro- rum, et sic- ut in mil- li- bus a- gno- rum pin- gui- um: sic fi- at sa- cri- fi- ci- um no- strum in con- spec- tu tu- o ho- di- e, ut pla- ce- at ti- bi: qui- a non est con- fu- si- o con- fi- den- ti- bus in te Do- mi- ne.
 2133
 GR
@@ -15039,7 +15039,7 @@ GR
 Ut videam
 GradualeV
 GrTr 358
-[Ut] f	 [vi-] f [de-] a [am] a c' d' c' d' c' d' a f a c' d' a f a c' a h a c' d' c' d' c' d' a f g f f f f a c' d' e' c' [vo-] c' d' [lun-] c' [ta-] c' [tem] c' h d' e' [Do-] d' c' [mi-] c' [ni:] c' h d' c' e' d' c' h c' a [et] c' c' [pro-] d' c' d' e' c' d' c' d' e' d' e' c' d' e' d' e' [te-] e' [gar] e' c' e' f' d' c' c' a h a [a] f [tem-] f [plo] f [sanc-]f a g f [to] g a [e-] a c' h a c' c' c' [ius.] c' c' a h a h g f a h g f a g c' c' c' c' a a f a g a g g f
+[Ut] f	 [vi-] f [de-] a [am] a c' d' c' d' c' d' a f a c' d' a f a c' a h a c' d' c' d' c' d' a f g f f f f a c' d' e' c' [vo-] c' d' [lun-] c' [ta-] c' [tem] c' h d' e' [Do-] d' c' [mi-] c' [ni:] c' h d' c' e' d' c' h c' a [et] c' c' [pro-] d' c' d' e' c' d' c' d' e' d' e' c' d' e' d' e' [te-] e' [gar] e' c' e' f' d' c' c' a h a [a] f [tem-] f [plo] f [sanc-] f a g f [to] g a [e-] a c' h a c' c' c' [ius.] c' c' a h a h g f a h g f a g c' c' c' c' a a f a g a g g f
 Ut vi- de- am vo- lun- ta- tem Do- mi- ni: et pro- te- gar a tem- plo sanc- to e- ius.
 2149
 GR
@@ -15067,14 +15067,14 @@ GR
 Deus cui adstat
 GradualeV
 GrTr 398
-[De-] f [us,] f [cu-] f [i] f [ad-]f a c' c' d' e' c' [stat] c' [an-] c' [ge-] c' [lo-] c' [rum] c' [cho-] c' [rus,] d' c' c' g c' d' c' d' c' c' g c' d' f' g' f' d' e' c' a c' h d' e' c' e' d' c' e' d' c' c' h a [ex-] c' [au-] c' d' e' d' c' c' a c' c' lu c' [di] c' [pre-] a h a g a h a f a g f g f [ces] f [ser-] f [vo-] f a g f [rum] g a [tu-] c' [o-] c' d' c' a c' c' c' [rum.] c' c' a h a h g f a h g f a g c' c' c' c' a a f a g a g g f
+[De-] f [us,] f [cu-] f [i] f [ad-] f a c' c' d' e' c' [stat] c' [an-] c' [ge-] c' [lo-] c' [rum] c' [cho-] c' [rus,] d' c' c' g c' d' c' d' c' c' g c' d' f' g' f' d' e' c' a c' h d' e' c' e' d' c' e' d' c' c' h a [ex-] c' [au-] c' d' e' d' c' c' a c' c' lu c' [di] c' [pre-] a h a g a h a f a g f g f [ces] f [ser-] f [vo-] f a g f [rum] g a [tu-] c' [o-] c' d' c' a c' c' c' [rum.] c' c' a h a h g f a h g f a g c' c' c' c' a a f a g a g g f
 De- us, cu- i ad- stat an- ge- lo- rum cho- rus, ex- au- di pre- ces ser- vo- rum tu- o- rum.
 2153
 GR
 Propter veritatem
 GradualeV
 GrTr 409
-[Pro-] f [pter] f [ve-] f [ri-] a c' [ta-] c' c' d' c' c' a c' f a c' c' c' d' c' c' a c' h c' d' c' d' [tem,] c' c' [et] f [man-]f [su-] f [e-] a g [tu-] g c' [di-] c' [nem,] d' c' c' c' c' d' c' c' h d' e' d' d' c' e' f' e' e' c' d' e' d' d' h c' d' c' c' a c' h c' a g g f [et] f [iu-] f [sti-] a f a g f a f g a or h c' c' d' [ti-] c' [am:] c' c' d' f' f' c' d' c' [et] a [de-] a d' [du-] d' [cet] d' c' e' f' d' c' c' a c' c' d' e' c' h c' [te] c' [mi-] c' [ra-] c' [bi-] d' c' h c' h a d' c' c' c' c' a g a g a c' c' d' c' h c' [li-] c' [ter] c' [dex-] c' c' [te-] c' [ra] c' [tu-] d' c' c' a c' c' d' e' c' h [a.] c' c' c' a c' c' c' a c' c' a f g a c' c' d' e' h c' a g h a f
+[Pro-] f [pter] f [ve-] f [ri-] a c' [ta-] c' c' d' c' c' a c' f a c' c' c' d' c' c' a c' h c' d' c' d' [tem,] c' c' [et] f [man-] f [su-] f [e-] a g [tu-] g c' [di-] c' [nem,] d' c' c' c' c' d' c' c' h d' e' d' d' c' e' f' e' e' c' d' e' d' d' h c' d' c' c' a c' h c' a g g f [et] f [iu-] f [sti-] a f a g f a f g a or h c' c' d' [ti-] c' [am:] c' c' d' f' f' c' d' c' [et] a [de-] a d' [du-] d' [cet] d' c' e' f' d' c' c' a c' c' d' e' c' h c' [te] c' [mi-] c' [ra-] c' [bi-] d' c' h c' h a d' c' c' c' c' a g a g a c' c' d' c' h c' [li-] c' [ter] c' [dex-] c' c' [te-] c' [ra] c' [tu-] d' c' c' a c' c' d' e' c' h [a.] c' c' c' a c' c' c' a c' c' a f g a c' c' d' e' h c' a g h a f
 Pro- pter ve- ri- ta- tem, et man- su- e- tu- di- nem, et iu- sti- ti- am: et de- du- cet te mi- ra- bi- li- ter dex- te- ra tu- a.
 2154
 GR
@@ -15151,7 +15151,7 @@ GR
 Posuerunt mortalia
 Communio
 GrTr 471
-[Po-] f [su-] g a [e-] a [runt]a [mor-] ld a [ta-] a [li-] g [a] g f g a g [ser-] ld g [vo-] g a g [rum] a [tu-] g a [o-] a c' h a [rum,] g a [Do-] a [mi-] a h a [ne,] a [e-] a [scas] a g a h a [vo-] g [la-] g e [ti-] g a g a a g a [li-] f [bus] f e f g [cae-] f g f [li,] f [car-] a [nes] a g a h a [sanc-] f [to-] a g a h a [rum] f f e [tu-] d [o-] d or e f e f [rum] e d [be-] f g [sti-] f e [is] f g f f e [ter-] d or e f e f [rae:] e d or e f [se-] f c [cun-] f a [dum] g a [mag-] g [ni-] f a c' h a [tu-] a h a [di-] a [nem] a [bra-] c' [chi-] c' h a [i] a [tu-] h c' h g [i,] a g [pos-] a h a [si-] g [de] g e [fi-] g a g a a g a [li-] f e f e d e [os] e d [mor-] f g [te] e [pu-] g a g a h a [ni-] f f e [to-] d or e f e f [rum.] e d
+[Po-] f [su-] g a [e-] a [runt] a [mor-] ld a [ta-] a [li-] g [a] g f g a g [ser-] ld g [vo-] g a g [rum] a [tu-] g a [o-] a c' h a [rum,] g a [Do-] a [mi-] a h a [ne,] a [e-] a [scas] a g a h a [vo-] g [la-] g e [ti-] g a g a a g a [li-] f [bus] f e f g [cae-] f g f [li,] f [car-] a [nes] a g a h a [sanc-] f [to-] a g a h a [rum] f f e [tu-] d [o-] d or e f e f [rum] e d [be-] f g [sti-] f e [is] f g f f e [ter-] d or e f e f [rae:] e d or e f [se-] f c [cun-] f a [dum] g a [mag-] g [ni-] f a c' h a [tu-] a h a [di-] a [nem] a [bra-] c' [chi-] c' h a [i] a [tu-] h c' h g [i,] a g [pos-] a h a [si-] g [de] g e [fi-] g a g a a g a [li-] f e f e d e [os] e d [mor-] f g [te] e [pu-] g a g a h a [ni-] f f e [to-] d or e f e f [rum.] e d
 Po- su- e- runt mor- ta- li- a ser- vo- rum tu- o- rum, Do- mi- ne, e- scas vo- la- ti- li- bus cae- li, car- nes sanc- to- rum tu- o- rum be- sti- is ter- rae: se- cun- dum mag- ni- tu- di- nem bra- chi- i tu- i, pos- si- de fi- li- os mor- te pu- ni- to- rum.
 2165
 GR
@@ -15172,7 +15172,7 @@ GR
 Desiderium animae
 GradualeV
 GrTr 477
-[De-] c [si-] d [de-] d a [ri-] a [um] c' a a g a g e f g e g h a g a f d e g a f e g a f f f d f e d [a-] f or g a h [ni-] a [mae] a g f or g a g f [e-] g a [ius] g [tri-] f [bu-] f [i-] f a a g a f g [sti] d [e-] d f e f e f a g e f d [i,] d [et] e [vo-] c [lun-] d [ta-] d f f f f f d f e d e f g [te] g a a g [la-] f [bi-] f [o-] f a a g a f g [rum] d [e-] d f e f e f a g e f d [ius] d [non] c [frau-]d [das-] f f [ti] f g [e-] g f a g a [um.] a a f a g a f d g f f f e c d d c d A c d f f d c f f g f f d e d
+[De-] c [si-] d [de-] d a [ri-] a [um] c' a a g a g e f g e g h a g a f d e g a f e g a f f f d f e d [a-] f or g a h [ni-] a [mae] a g f or g a g f [e-] g a [ius] g [tri-] f [bu-] f [i-] f a a g a f g [sti] d [e-] d f e f e f a g e f d [i,] d [et] e [vo-] c [lun-] d [ta-] d f f f f f d f e d e f g [te] g a a g [la-] f [bi-] f [o-] f a a g a f g [rum] d [e-] d f e f e f a g e f d [ius] d [non] c [frau-] d [das-] f f [ti] f g [e-] g f a g a [um.] a a f a g a f d g f f f e c d d c d A c d f f d c f f g f f d e d
 De- si- de- ri- um a- ni- mae e- ius tri- bu- i- sti e- i, et vo- lun- ta- te la- bi- o- rum e- ius non frau- das- ti e- um. 
 2168
 GR
@@ -15270,7 +15270,7 @@ GR
 Adiuva me domine
 GradualeV
 GrTr 633
-[Ad-] f [iu-] f [va] a [me,] h [Do-] c' [mi-] c' [ne] d' c' c' c' a c' d' e' c' c' d' e' d' c' d' e' c' a h c' a f a f a g f a f g a c' c' d' h c' a c' d' f' f' f' c' [De-] a c' d' [us] d' c' e' f' d' c' c' a [me-] c' a c' c' c' [us:] c' a or h c' d' c' d' e' c' c' d' d' c' [sal-] f [vum] f [me] f [fac] f [prop-]f [ter] f [mi-] f [se-] f [ri-] f [cor-] f a g f [di-] g a [am] a [tu-] a c' h a c' c' c' [am.] c' c' a h a h g f a h g f a g c' c' c' c' a a f a g a g g f 
+[Ad-] f [iu-] f [va] a [me,] h [Do-] c' [mi-] c' [ne] d' c' c' c' a c' d' e' c' c' d' e' d' c' d' e' c' a h c' a f a f a g f a f g a c' c' d' h c' a c' d' f' f' f' c' [De-] a c' d' [us] d' c' e' f' d' c' c' a [me-] c' a c' c' c' [us:] c' a or h c' d' c' d' e' c' c' d' d' c' [sal-] f [vum] f [me] f [fac] f [prop-] f [ter] f [mi-] f [se-] f [ri-] f [cor-] f a g f [di-] g a [am] a [tu-] a c' h a c' c' c' [am.] c' c' a h a h g f a h g f a g c' c' c' c' a a f a g a g g f 
 Ad- iu- va me, Do- mi- ne De- us me- us: sal- vum me fac prop- ter mi- se- ri- cor- di- am tu- am.
 2182
 GR
@@ -15312,7 +15312,7 @@ GR
 Eripe me Domine
 OffertoriumV
 OffTr 52
-[E-] d [ri-] c [pe] c d f f g a a g a a f g f d c d f f g a a g a a f g f d a g f g f g h g a h [me,] a [Do-] a g a g d' c' h c' h a [mi-] g a or h c' a [ne,] g a g [ab] d c d [ho-] f g a [mi-] f e [ne] c d [ma-] d or e f e f [lo:] e d [a] d [vi-]f g a [ro] d [in-] d [i-] f g a [quo] f g a [li-] d or e f g a [be-] f e [ra] c d [me.] d or e f g f f d e d 
+[E-] d [ri-] c [pe] c d f f g a a g a a f g f d c d f f g a a g a a f g f d a g f g f g h g a h [me,] a [Do-] a g a g d' c' h c' h a [mi-] g a or h c' a [ne,] g a g [ab] d c d [ho-] f g a [mi-] f e [ne] c d [ma-] d or e f e f [lo:] e d [a] d [vi-] f g a [ro] d [in-] d [i-] f g a [quo] f g a [li-] d or e f g a [be-] f e [ra] c d [me.] d or e f g f f d e d 
 E- ri- pe me, Do- mi- ne, ab ho- mi- ne ma- lo: a vi- ro in- i- quo li- be- ra me.
 2188
 GR
@@ -15361,5 +15361,5 @@ GR
 Et nunc sequimur
 OffertoriumV
 OffTr 92
-[Et] c [nunc] d f d f [se-] e f g [qui-] e d f [mur] d c d or e f e d [in] ld d [to-] f a [to] a [cor-]a h g a  [de] f e [et] ld f [ti-] f [me-] g a g [mus] e d f [te] d c d or e f e d [et] g a [quae-] c' h c' [ri-] a [mus] a [fa-] a [ci-] a [em] ld a [tu-] c' d'  [am,] ld c' [Do-] a [mi-] a h a [ne:] a [ne] f e [con-] f [fun-] g a g  [das] e d f [nos,] d c d or e f e d [sed] a g a d' [fac] c' h  [no-] a h c' h a h [bis] h a  [iux-] a [ta] a [man-]ld f  [su-] g [e-] g d [tu-] f a g a [di-] f e  [nem] d [tu-] d e f e d e [am] e d [et] f [se-] f [cund-] g a g a h  [dum] a [mul-] a h [ti-] a [tu-] a g a [di-] f e [nem] d [mi-] d c [se-] f g [ri-] f [cor-] f a a lu g [di-] f g  [ae] g d [tu-] f a g a h [ae.] a 
+[Et] c [nunc] d f d f [se-] e f g [qui-] e d f [mur] d c d or e f e d [in] ld d [to-] f a [to] a [cor-] a h g a  [de] f e [et] ld f [ti-] f [me-] g a g [mus] e d f [te] d c d or e f e d [et] g a [quae-] c' h c' [ri-] a [mus] a [fa-] a [ci-] a [em] ld a [tu-] c' d'  [am,] ld c' [Do-] a [mi-] a h a [ne:] a [ne] f e [con-] f [fun-] g a g  [das] e d f [nos,] d c d or e f e d [sed] a g a d' [fac] c' h  [no-] a h c' h a h [bis] h a  [iux-] a [ta] a [man-]ld f  [su-] g [e-] g d [tu-] f a g a [di-] f e  [nem] d [tu-] d e f e d e [am] e d [et] f [se-] f [cund-] g a g a h  [dum] a [mul-] a h [ti-] a [tu-] a g a [di-] f e [nem] d [mi-] d c [se-] f g [ri-] f [cor-] f a a lu g [di-] f g  [ae] g d [tu-] f a g a h [ae.] a 
 Et nunc se- qui- mur in to- to cor- de et ti- me- mus te et quae- ri- mus fa- ci- em tu- am, Do- mi- ne: ne con- fun- das nos, sed fac no- bis iux- ta man- su- e- tu- di- nem tu- am et se- cund- dum mul- ti- tu- di- nem mi- se- ri- cor- di- ae tu- ae.
