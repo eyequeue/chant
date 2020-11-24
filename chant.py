@@ -1,8 +1,31 @@
 from lmlo import lmloCorpus, tenorclef, fullService, fullGenre
 import pandas as pd
 import numpy
-from collections import defaultdict
+from collections import defaultdict, Counter
 from IPython.core.display import display, HTML
+
+from cltk.stem.latin.syllabifier import Syllabifier
+syllabifier = Syllabifier()
+
+n_limit = 8
+
+
+gamut_pitches = ['0f','0g','1a','1b','1c','1d','1e','1f','1g','2a','2b','2c','2d','2e','2f','2g','3a','3b','3c','3d','3e']
+gamut_volpiano = ['8','9','a','b','c','d','e','f','g','h','j','k','l','m','n','o','p','q','r','s','t']
+modesHapax = ['1e','4b','7a','7c']
+modesRare = ['2g','2a','8c']
+modesTransp = ['4a', '5c', '6c']
+modesMain = ['1d','2d','3e','4e','5f','6f','7g','8g']
+modesMore = modesMain + modesTransp
+modesMost = modesMore + modesRare
+modesAll  = modesMost + modesHapax
+
+modesMainAuth = ['1d','3e','5f','7g']
+modesMainPlag = ['2d','4e','6f','8g']
+modesPsalm = ['1v','2v','3v','4v','5v','6v','7v','8v']
+
+basicModes = modesMain
+psalmTones = modesPsalm
 
 
 decodeSubcorpus = {
@@ -17,6 +40,35 @@ decodeService = fullService
 decodeGenre = fullGenre
     # '': '',
 
+def v2r(v):
+  if v == '':
+    return v
+
+  numbers = list()
+  for vchar in v:
+    numbers.append(gamut_volpiano.index(vchar))
+  min_n = min(numbers)
+  output = '<'
+  for i in range(len(numbers)):
+    output += f'{numbers[i] - min_n:x}' 
+  output += '>'
+
+  return output
+
+def v2c(v):
+    output = ''
+    if len(v) >= 2:
+        for k in range(len(v)-1):
+            v1 = gamut_volpiano.index(v[k])
+            v2 = gamut_volpiano.index(v[k+1])
+            if v1 == v2:
+                output += '='
+            elif v2 < v1:
+                output += '-'
+            else:
+                output += '+'
+
+    return output
 
 def _recalculate():
 
@@ -80,7 +132,8 @@ def _recalculate():
         # _data['lmloEncoding'].append(c.lmloEncoding)
         _data['volpiano'].append(c.volpiano)
 
-    pd.DataFrame(_data).to_pickle('chantData.zip')
+    chants = pd.DataFrame(_data)
+    chants.to_pickle('chantData.zip')
 
     # populate note data frame
 
@@ -181,7 +234,135 @@ def _recalculate():
 
 
 
-    pd.DataFrame(_data).to_pickle('noteData.zip')
+    notes = pd.DataFrame(_data)
+    notes.to_pickle('noteData.zip')
+    
+    chantsnotes = chants.merge(notes)
+    syllables = defaultdict(list)
+    override = dict()
+    override['eius'] = ['e','ius']
+    override['dei'] = ['de','i']
+    override['deus'] = ['de','us']
+    override['quia'] = ['qui','a']
+    override['christi'] = ['chris','ti']
+    override['christe'] = ['chris','te']
+    override['eum'] = ['e','um']
+    override['deum'] = ['de','um']
+    override['meum'] = ['me','um']
+    override['meus'] = ['me','us']
+    override['christo'] = ['chris','to']
+    override['christus'] = ['chris','tus']
+    override['christum'] = ['chris','tum']
+    override['mei'] = ['me','i']
+    override['ei'] = ['e','i']
+    override['cui'] = ['cu','i']
+    override['israel'] = ['is','ra','el']
+    override['sanguine'] = ['san','gui','ne']
+    override['meis'] = ['me','is']
+    override['eis'] = ['e','is']
+    override['fidei'] = ['fi','de','i']
+    override['sanguinem'] = ['san','gui','nem']
+    override['lingua'] = ['lin','gua']
+    override['thronum'] = ['thro','num']
+    override['pulchra'] = ['pul','chra']
+    override['oleum'] = ['o','le','um']
+    override['adiutor'] = ['ad','iu','tor']
+    override['sanguis'] = ['san','guis']
+    override['sanguinis'] = ['san','gui','nis']
+    override['huic'] = ['hu','ic']
+    override['alleluia'] = ['al','le','lu','ia']
+    override['michael'] = ['mi','cha','el']
+    override['noe'] = ['no','e']
+    
+    
+    for i, c in chants.iterrows():
+      if c.modus not in basicModes+['6c']:
+          continue
+      # if i>200: break
+      words = c.text.lower().split()
+      vwords = c.volpiano[4:-3].split('--')
+      if len(words) != len(vwords):
+        # print(f'oops: {len(words)} {len(vwords)}')
+        # print(words)
+        # print(vwords)    
+        vwords[-2] = vwords[-2] + '-' + vwords[-1]
+        vwords.pop(-1)
+        # print('--fixing--')
+        # print(words)
+        # print(vwords)
+      for j in range(len(words)):
+        if words[j] in override:
+          sylls = override[words[j]]
+        else:
+          sylls = syllabifier.syllabify(words[j].lower())
+        vsylls = vwords[j].split('-')
+        if len(sylls) != len(vsylls):
+          sylls = [f'[{words[j]}]'] * len(vsylls)
+        for k in range(len(vsylls)):
+          syllables['chantID'].append(c.chantID)
+          syllables['syllable'].append(sylls[k])
+          syllables['last_syll'].append(k+1 == len(vsylls))
+          v = vsylls[k]
+          syllables['n_notes'].append(len(v))
+          syllables['volpiano'].append(v)
+          notes = ''
+          for vchar in v:
+            notes += f'{gamut_pitches[gamut_volpiano.index(vchar)]} '
+          syllables['notes'].append(notes)
+          syllables['pitch_initial'].append(gamut_pitches[gamut_volpiano.index(v[0])])
+          syllables['pitch_final'].append(gamut_pitches[gamut_volpiano.index(v[-1])])
+          syllables['t_type'].append(v2r(v))
+          syllables['e_type'].append(v2r(v[0]+v[-1]))
+          syllables['c_type'].append(v2c(v))
+   
+
+    syllables = pd.DataFrame(syllables)
+    modekey = chantsnotes.query("word == 0 and syll == 0 and note == 0").set_index('chantID').modus.to_frame()
+    syllables = syllables.join(modekey.modus, on='chantID', how='inner')
+    syllables['extrema'] = syllables['pitch_initial'] + '-' + syllables['pitch_final']
+    syllables.to_pickle('syllableData.zip')
+
+
+    ngrams = defaultdict(list)
+    
+    
+    for i, c in chants.iterrows():
+        # if i>0: break
+        v = c.volpiano.replace('-','')
+    
+        # V = v with duplicate pitches removed
+    
+        V = v[0]
+        for k in range(1, len(v)):
+            if v[k] != V[-1]:
+                V += v[k]
+    
+        
+        for n in range(1, n_limit+1):
+            for k in range(1,len(V)-n):
+                v = V[k:k+n]
+                ngrams['chantID'].append(c.chantID)
+                ngrams['pos'].append(k)
+                ngrams['n_notes'].append(len(v))
+                ngrams['volpiano'].append(v)
+                notes = ''
+                for vchar in v:
+                    notes += f'{gamut_pitches[gamut_volpiano.index(vchar)]} '
+                ngrams['notes'].append(notes)
+                ngrams['pitch_initial'].append(gamut_pitches[gamut_volpiano.index(v[0])])            
+                ngrams['pitch_final'].append(gamut_pitches[gamut_volpiano.index(v[-1])])
+                ngrams['t_type'].append(v2r(v))
+                ngrams['e_type'].append(v2r(v[0]+v[-1]))
+                ngrams['c_type'].append(v2c(v))
+    
+    ngrams = pd.DataFrame(ngrams)
+    ngrams = ngrams.join(modekey.modus, on='chantID', how='inner')
+    
+    ngrams['extrema'] = ngrams['pitch_initial'] + '-' + ngrams['pitch_final']
+    
+    print('making pickles')
+    ngrams.to_pickle('ngramData.zip')
+
 
 def vdisplay(volpiano, size=24, addClef = False, color='black', tenorClef=True):
     if addClef:
@@ -195,7 +376,7 @@ def vdisplay(volpiano, size=24, addClef = False, color='black', tenorClef=True):
 
 def displayChant(idx):
     
-    c = cd.iloc[idx]
+    c = chants.iloc[idx]
 
     htmlOut = ''
     htmlOut += f'<span style="font: 12px Roboto"><a href="http://corpus.music.yale.edu/displaychants?office={c.office}">{c.office}</a> | {fullGenre[c.genre]}'
@@ -236,25 +417,13 @@ def display_percent(x):    # used for easier-to-read probability tables
         return str(int(x*100)) + '%'
 
 
-modesHapax = ['1e','4b','7a','7c']
-modesRare = ['2g','2a','8c']
-modesTransp = ['4a', '5c', '6c']
-modesMain = ['1d','2d','3e','4e','5f','6f','7g','8g']
-modesMore = modesMain + modesTransp
-modesMost = modesMore + modesRare
-modesAll  = modesMost + modesHapax
 
-modesMainAuth = ['1d','3e','5f','7g']
-modesMainPlag = ['2d','4e','6f','8g']
-modesPsalm = ['1v','2v','3v','4v','5v','6v','7v','8v']
-
-basicModes = modesMain 
-psalmTones = modesPsalm
-
-try:
-    cd = pd.read_pickle('chant/chantData.zip')
-    nd = pd.read_pickle('chant/noteData.zip')
-except:
-    cd = pd.read_pickle('chantData.zip')
-    nd = pd.read_pickle('noteData.zip')
+# try:
+#     chants = pd.read_pickle('chant/chantData.zip')
+#     notes = pd.read_pickle('chant/noteData.zip')
+# except:
+chants = pd.read_pickle('chantData.zip')
+notes = pd.read_pickle('noteData.zip')
+syllables = pd.read_pickle('syllableData.zip')
+ngrams = pd.read_pickle('ngramData.zip')
 
