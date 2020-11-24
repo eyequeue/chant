@@ -4,8 +4,6 @@ import numpy
 from collections import defaultdict, Counter
 from IPython.core.display import display, HTML
 
-from cltk.stem.latin.syllabifier import Syllabifier
-syllabifier = Syllabifier()
 
 n_limit = 8
 
@@ -71,6 +69,9 @@ def v2c(v):
     return output
 
 def _recalculate():
+
+    from cltk.stem.latin.syllabifier import Syllabifier
+    syllabifier = Syllabifier()
 
     corpus = lmloCorpus()
 
@@ -418,12 +419,15 @@ def display_percent(x):    # used for easier-to-read probability tables
 
 
 
-# try:
-#     chants = pd.read_pickle('chant/chantData.zip')
-#     notes = pd.read_pickle('chant/noteData.zip')
-# except:
-chants = pd.read_pickle('chantData.zip')
-notes = pd.read_pickle('noteData.zip')
-syllables = pd.read_pickle('syllableData.zip')
-ngrams = pd.read_pickle('ngramData.zip')
+try:
+    chants = pd.read_pickle('chant/chantData.zip')
+    notes = pd.read_pickle('chant/noteData.zip')
+    syllables = pd.read_pickle('chant/syllableData.zip')
+    ngrams = pd.read_pickle('chant/ngramData.zip')
+
+except:
+    chants = pd.read_pickle('chantData.zip')
+    notes = pd.read_pickle('noteData.zip')
+    syllables = pd.read_pickle('syllableData.zip')
+    ngrams = pd.read_pickle('ngramData.zip')
 
