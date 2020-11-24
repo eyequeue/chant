@@ -134,7 +134,7 @@ def _recalculate():
         _data['volpiano'].append(c.volpiano)
 
     chants = pd.DataFrame(_data)
-    chants.to_pickle('chantData.zip')
+    chants.to_pickle('chantData.zip', protocol=4)
 
     # populate note data frame
 
@@ -236,7 +236,7 @@ def _recalculate():
 
 
     notes = pd.DataFrame(_data)
-    notes.to_pickle('noteData.zip')
+    notes.to_pickle('noteData.zip', protocol=4)
     
     chantsnotes = chants.merge(notes)
     syllables = defaultdict(list)
@@ -321,7 +321,7 @@ def _recalculate():
     modekey = chantsnotes.query("word == 0 and syll == 0 and note == 0").set_index('chantID').modus.to_frame()
     syllables = syllables.join(modekey.modus, on='chantID', how='inner')
     syllables['extrema'] = syllables['pitch_initial'] + '-' + syllables['pitch_final']
-    syllables.to_pickle('syllableData.zip')
+    syllables.to_pickle('syllableData.zip', protocol=4)
 
 
     ngrams = defaultdict(list)
@@ -362,7 +362,7 @@ def _recalculate():
     ngrams['extrema'] = ngrams['pitch_initial'] + '-' + ngrams['pitch_final']
     
     print('making pickles')
-    ngrams.to_pickle('ngramData.zip')
+    ngrams.to_pickle('ngramData.zip', protocol=4)
 
 
 def vdisplay(volpiano, size=24, addClef = False, color='black', tenorClef=True):
