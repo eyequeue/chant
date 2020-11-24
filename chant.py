@@ -236,9 +236,10 @@ def _recalculate():
 
 
     notes = pd.DataFrame(_data)
+    modekey = chants.merge(notes).query("word == 0 and syll == 0 and note == 0").set_index('chantID').modus.to_frame()
+    notes = notes.join(modekey.modus, on='chantID', how='inner')
     notes.to_pickle('noteData.zip', protocol=4)
     
-    chantsnotes = chants.merge(notes)
     syllables = defaultdict(list)
     override = dict()
     override['eius'] = ['e','ius']
@@ -318,7 +319,6 @@ def _recalculate():
    
 
     syllables = pd.DataFrame(syllables)
-    modekey = chantsnotes.query("word == 0 and syll == 0 and note == 0").set_index('chantID').modus.to_frame()
     syllables = syllables.join(modekey.modus, on='chantID', how='inner')
     syllables['extrema'] = syllables['pitch_initial'] + '-' + syllables['pitch_final']
     syllables.to_pickle('syllableData.zip', protocol=4)
